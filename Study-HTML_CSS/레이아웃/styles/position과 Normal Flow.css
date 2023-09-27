@@ -1,0 +1,11 @@
+/* position : 문서 상에 요소를 배치하는 방법을 지정 */
+
+/* position - static (기본값) */
+
+/* Normal Flow (일반대열) : 요소의 레이아웃을 변경하지 않을 시 웹페이지 요소가 자기 자신을 배치하는 방법 */
+
+div {
+  width: 100px;
+  height: 100px;
+  border: solid;
+}

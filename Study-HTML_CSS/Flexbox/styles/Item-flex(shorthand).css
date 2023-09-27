@@ -1,0 +1,40 @@
+/* Item-flex 단축 속성 (shorthand) */
+
+/* 한 개 또는 두 개의 단위 없는 숫자 값을 사용할 때, <flex-basis>의 값은 auto가 아니라 0 */
+
+/*
+1. 값이 한 개일 때
+- <number>를 지정한면 <flex-grow>
+- <length> 또는 <percentage>를 지정하면 <flex-basis>
+- none, auto, initial 중 하나
+2. 값이 두 개일 때
+- 첫번째 값은 <number>가 들어가며 <flex-grow>
+- 두번째 값은 <number>를 지정하면 <flex-shrink> / <length>,<percenatage>,auto를 지정하면 <flex-basis>
+3. 값이 세 개일 때
+- <flex-grow>에 사용할 <number>
+- <flex-shirnk>에 사용할 <number>
+- <flex-basis>에 사용할 <length>,<percentage>,auto
+*/
+
+/*
+- initial : 0 1 auto
+- auto : 1 1 auto
+- none : 0 0 auto
+*/
+
+.container {
+  height: 200px;
+  border: 5px dashed orange;
+
+  display: flex;
+}
+
+.item {
+  height: 50px;
+  margin: 5px;
+  background-color: paleturquoise;
+  border: 3px solid blue;
+  font-size: 30px;
+
+  flex: 1;
+}

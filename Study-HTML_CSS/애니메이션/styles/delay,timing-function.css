@@ -1,0 +1,41 @@
+/* 1. <delay> : animation이 시작할 시점을 지정 */
+
+/* 2. <timing-function> : animation이 되는 중간과정의 효과를 지정  */
+
+div {
+  width: 100px;
+  height: 100px;
+  border: 10px solid seagreen;
+  border-radius: 30px;
+
+  /* animation: my-first-animation 1s infinite; */
+}
+
+.box1 {
+  background-color: rgb(204, 253, 225);
+  animation: my-first-animation 1s infinite;
+  animation-delay: -0.3s;
+}
+.box2 {
+  background-color: rgb(196, 35, 40);
+  animation: my-first-animation 1s infinite;
+  animation-delay: 0s;
+}
+.box3 {
+  background-color: rgb(52, 30, 101);
+  animation: my-first-animation 1s infinite;
+  animation-delay: 0.3s;
+}
+
+@keyframes my-first-animation {
+  0% { 
+    font-size: 20px; 
+  }
+  50% { 
+    width: 300px; 
+    font-size: 40px;
+  }
+  100% {
+    font-size: 20px;
+  }
+}

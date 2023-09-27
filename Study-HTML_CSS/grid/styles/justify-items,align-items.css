@@ -1,0 +1,30 @@
+/* 1. <justify-items> : 주축을 기준으로 그리드 틀 안에서 item 들을 어떻게 정렬할 것인지 지정 */
+
+/* 2. <align-items> : 교차축을 기준으로 그리드 틀 안에서 item 들을 어떻게 정렬할 것인지 지정 */
+
+/* 3. <justify/align-items> : 주축/교차축을 기준으로 그리드 틀 안에서 item 각각을 선택해 어떻게 정렬할 것인지 지정 */
+
+.container {
+  width: 100%;
+  height: 500px;
+  border: 5px dashed orange;
+
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+
+  justify-items: center;
+  align-items: center;
+}
+
+.item {
+  background-color: paleturquoise;
+  border: 3px solid blue;
+  font-size: 30px;
+}
+
+.item:nth-child(1) {
+  width: 50px;
+  height: 50px;
+}
+

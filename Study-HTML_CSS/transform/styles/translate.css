@@ -1,0 +1,10 @@
+/* translate() : 이동 */
+/* translateX / Y : 가로/세로만 변경 */
+
+/* 값 : <length>와 <percentage> */
+
+#image {
+  width: 300px;
+  
+  transform: translate(50%, 30%);
+}

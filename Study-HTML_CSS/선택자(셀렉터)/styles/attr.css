@@ -1,0 +1,30 @@
+/* Attribute selector */
+
+/* 1. [attr] */
+a[targetrr] {
+  color: hotpink;
+}
+
+/* 2. [attr=value] */
+a[href="http://example.org"] {
+  color: indigo;
+}
+
+input[type=submit] {
+  background-color: green;
+}
+
+/* 3. [attr^=value] : 해당 문자열로 시작하는 것에 스타일 적용 */
+a[href^="https://"] {
+  color: red;
+}
+
+/* 4. [attr$=value] : 해당 문자열로 끝나는 것에 스타일 적용 */
+a[href$=".com"] {
+  font-style: italic;
+}
+
+/* 5. [attr*=value] : 해당 문자열을 하나라도 가지고 있는 것에 스타일 적용 */
+a[href*="example"] {
+  color: sienna;
+}

@@ -1,0 +1,22 @@
+/* (gird) row/column-gap : 행/열의 간격을 지정 */
+
+/* gap 단축 속성 (shorthand) : 행 열 */
+
+.container {
+  width: 400px;
+  height: 400px;
+  border: 5px dashed orange;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  /* row-gap: 20px;
+  column-gap: 50px; */
+  gap: 20px 50px;
+}
+
+.item {
+  background-color: paleturquoise;
+  border: 3px solid blue;
+  font-size: 20px;
+}

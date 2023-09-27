@@ -1,0 +1,24 @@
+/* <grid-template-rows/columns> : 그리드의 행/열을 지정 */
+
+/* 
+값
+1. 명시적인 값 : <length>
+2. fr : 컨테이너의 너비에 맞춰 비율을 지정
+3. 함수표기법: repeat(반복횟수, 값)
+ */
+
+.container {
+  height: 400px;
+  border: 5px dashed orange;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+  grid-template-rows: repeat(4, 80px);
+}
+
+.item {
+  background-color: paleturquoise;
+  border: 3px solid blue;
+  font-size: 30px;
+}

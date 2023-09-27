@@ -1,0 +1,11 @@
+/* text-trasform : 눈에 보여질 텍스트의 형태를 변경 (한국어 X) */
+/* 
+1. uppercase : 대문자로 변경
+2. lowercase : 소문자로 변경
+3. capitalize : 단어의 앞글자만 대문자로 변경
+*/
+
+.container p:last-of-type {
+  color: blue;
+  text-transform: capitalize;
+}

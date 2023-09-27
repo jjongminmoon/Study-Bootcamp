@@ -1,0 +1,17 @@
+/* overflow : 요소의 콘텐츠가 너무 커서 요소의 블록 서식 맥락에 맞출 수 없을 때의 처리법을 지정 */
+/*
+값
+1. visible : 기본값
+2. hidden : 콘텐츠 안쪽 여백 상자에 맞추기 위해 넘치는 부분을 잘라냄
+3. scroll : 콘텐츠 안쪽 여백 상자에 맞추기 위해 넘치는 부분을 자르고, 스크롤을 제공
+4. auto : 콘텐츠에 따라 결정
+ */
+
+div {
+  background-color: bisque;
+
+  width: 200px;
+  height: 225px;
+
+  overflow: scroll;
+}

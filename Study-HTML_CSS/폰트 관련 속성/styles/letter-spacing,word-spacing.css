@@ -1,0 +1,11 @@
+/* 1. letter-spacing : 글자 간의 간격을 지정할 때 사용 */
+
+/* 2. word-spacing : 단어 간의 간격을 지정할 때 사용 */
+
+.text {
+  letter-spacing: 3px;
+}
+
+.default {
+  word-spacing: 5px;
+}

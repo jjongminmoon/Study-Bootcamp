@@ -1,0 +1,16 @@
+/* <display> : grid */
+
+.container {
+  border: 5px dashed orange;
+
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  width: 150px;
+}
+
+.item {
+  background-color: paleturquoise;
+  border: 3px solid blue;
+  font-size: 30px;
+}

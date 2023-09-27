@@ -1,0 +1,22 @@
+/* text-decoration (shorthand) : 텍스트 관련 스타일링 단축 속성 */
+/* 사용 빈도가 높음 */
+/*
+1. text-decoration-line : 장식의 종류
+- none : 기본값
+- underline : 밑줄
+- overline : 윗줄
+- line-through : 가운데줄
+2. text-decoration-color : 장식의 색
+3. text-decoration-style : 장식의 스타일
+- solid : 실선 (기본값)
+- double : 줄 두개
+- dotted : 점선
+- dashed : 긴 점선
+- wavy : 물결표시
+4. text-decoration-thickness : 선의 두께 
+*/
+
+span {
+  color: blue;
+  text-decoration: line-through red 3px wavy;
+}

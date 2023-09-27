@@ -1,0 +1,19 @@
+/* Type Selector : 요소별 스타일이 아닌 하나의 전체 웹페이지에서 일관적으로 적용해야 하는 스타일이 있을 때 사용 */
+/* CSS 상단부에 많이 작성 -> 가장 처음 적용되는 CSS이기 때문 */
+h2 {
+  color: purple;
+}
+
+/* ID Selector : 특정 한가지 요소만 스타일을 적용 (문서 내 유일한 id 속성에 적용) */
+#welcome-title {
+  color: red;
+}
+
+/* Class Selector : 특정 여러 요소에 스타일을 적용 (문서 내 여러 class 속성에 적용) */
+.blue {
+  color: blue;
+}
+
+.red {
+  color: red;
+}

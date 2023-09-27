@@ -1,0 +1,14 @@
+/* text-indent : 들여쓰기 관련 스타일링 */
+/* 블록 요소에는 적용이 되지만, 인라인 요소에는 적용 X */
+
+.paragraph1 {
+  text-indent: 20px;
+}
+
+.container {
+  text-indent: 50px;
+}
+
+.inline {
+  text-indent: 30px;
+}

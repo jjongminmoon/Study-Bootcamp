@@ -1,0 +1,11 @@
+/* Pseudo-Element Selector (가상 요소 선택자) */
+/* selector:: 조건 { property : value; } (콜론이 2개, 권고사항) */
+
+/* 1. before : 텍스트 이전에 가상으로 만드는 별도의 스타일링 (선택X, 복사X) */
+
+/* 2. after : 텍스트 이후에 가상으로 만드는 별도의 스타일링 */
+
+.favorite::before {
+  content: '★';
+  color: indianred;
+}

@@ -1,0 +1,9 @@
+/* rotate(angle) : 회전  */
+
+/* <angle> : deg / turn 등의 값을 사용 */
+
+#image {
+  width: 300px;
+
+  transform: rotate(45deg) scale(0.5);
+}

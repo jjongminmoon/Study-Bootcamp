@@ -1,0 +1,28 @@
+/* 1. <iteration-count> : animation의 반복횟수를 지정 */
+
+/* 2. <direction> : animation이 앞으로/뒤로/앞뒤로 번갈아 재생되어야하는지 여부를 지정 */
+
+div {
+  width: 100px;
+  height: 100px;
+  border: 10px solid seagreen;
+  border-radius: 50%;
+  background-color: silver;
+}
+
+.box {
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

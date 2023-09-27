@@ -1,0 +1,16 @@
+/* 크기 - width, height */
+
+/* auto 값은 상속 X */
+/* inline 요소는 width, height 지정 X */
+
+.block {
+  width: 300px;
+  height: 100px;
+  background-color: wheat;
+}
+
+.inline {
+  width: auto;
+  height: auto;
+  background-color: yellow;
+}

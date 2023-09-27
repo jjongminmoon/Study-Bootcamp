@@ -1,0 +1,27 @@
+/* <flex-shrink> : item 요소가 container 요소 내부에서 할당 가능한 공간의 정도를 선언 */
+
+/* 줄어드는 것 */
+
+.container {
+  height: 200px;
+  border: 5px dashed orange;
+
+  display: flex;
+}
+
+.item {
+  width: 200px;
+  height: 50px;
+  margin: 5px;
+  background-color: paleturquoise;
+  border: 3px solid blue;
+  font-size: 30px;
+}
+
+.item:nth-child(1) {
+  flex-shrink: 0;
+}
+
+.item:nth-child(3) {
+  flex-shrink: 2;
+}

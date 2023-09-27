@@ -1,0 +1,14 @@
+/* Flexbox : 행과 열 형태로 항목 무리를 배치하는 일차원 레이아웃 메서드 */
+
+.container {
+  border: 5px dashed orange;
+
+  display: flex;
+}
+
+.item {
+  width: 50px;
+  height: 50px;
+  background-color: paleturquoise;
+  border: 3px solid blue;
+}

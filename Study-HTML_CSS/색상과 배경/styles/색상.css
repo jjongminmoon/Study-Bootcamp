@@ -1,0 +1,21 @@
+/* color */
+
+/*
+색상 정의
+1. 키워드 사용 -> blue, red, transparent 등
+2. RGB 3차원 좌표계 사용 -> #16진수 / rgb() 함수형 표기법
+3. HSL 실린더형 좌표계 사용 -> hs1() / hs1a() 함수형 표기법
+*/
+
+div {
+  background-color: black;
+  background-color: #000000;
+  background-color: rgb(0, 0, 0);
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0, 0, 255, 0.5);
+}
+/* rgba 값의 a는 투명도를 지정 */

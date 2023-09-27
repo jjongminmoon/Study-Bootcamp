@@ -1,0 +1,9 @@
+/* skew(angle) : 기울이기 */
+/* skewX / Y : 가로/세로만 변경 */
+
+#image {
+  width: 300px;
+  margin: 100px;
+
+  transform: skew(10deg, 10deg);
+}

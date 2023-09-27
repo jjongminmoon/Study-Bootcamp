@@ -1,0 +1,14 @@
+/* text-align : 텍스틑 정렬하는 방법을 명시 */
+/* 블록 요소에는 적용이 되지만, 인라인 요소에는 적용 X */
+
+p,span {
+  background-color: red;
+}
+
+.block {
+  text-align: center;
+}
+
+.inline {
+  text-align: center;
+}

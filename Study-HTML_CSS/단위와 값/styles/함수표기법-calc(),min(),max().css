@@ -1,0 +1,28 @@
+/* 함수표기법 */
+
+/* 1. calc() : 사칙연산  */
+
+.container {
+  width: calc(100% - 50px);
+  height: 200px;
+
+  background-color: wheat;
+}
+
+/* 2. min() : 나열된 값 중 작은 것에 스타일이 적용 */
+
+/* .container {
+  width: min(100%, 500px);
+  height: 200px;
+
+  background-color: wheat;
+} */
+
+/* 3. max() : 나열된 값 중 큰 것에 스타일이 적용 */
+
+/* .container {
+  width: max(100%, 500px)
+  height: 200px;
+
+  background-color: wheat;
+} */

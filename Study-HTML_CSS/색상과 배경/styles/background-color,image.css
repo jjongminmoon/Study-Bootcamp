@@ -1,0 +1,15 @@
+/* 1. background-color : 요소의 배경 색을 지정 */
+
+/* 2. background-image : 요소의 배경 이미지를 한 개나 여러 개 지정 */
+
+.floating-box {
+  width: 400px;
+  height: 400px;
+
+  position: fixed;
+  top: 10px;
+  left: 10px;
+
+  background-image: url(https://interactive-examples.mdn.mozilla.net/media/examples/lizard.png);
+  background-color: royalblue;
+}

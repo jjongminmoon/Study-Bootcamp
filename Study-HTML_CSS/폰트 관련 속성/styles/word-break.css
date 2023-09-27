@@ -1,0 +1,20 @@
+/* word-break : 텍스트가 자신의 콘텐츠 박스 밖으로 오버플로 할 때 줄을 바꿀지 지정 */
+/* 
+1. normal : 기본 줄 바꿈
+2. break-all : 오버플로를 방지하기 위해서 두 문자 사이에 줄 바꿈이 발생 O (한중일 텍스트 X)
+3. keep-all : 한중일 텍스트에서 기본적으로 줄 바꿈이 나는 것을 없앰
+*/
+
+
+p {
+  width: 100px;
+  background-color: cadetblue;
+}
+
+p[lang="en"] {
+  word-break: break-all;
+}
+
+p[lang="ko"] {
+  word-break: keep-all;
+}

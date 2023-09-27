@@ -1,0 +1,17 @@
+/* position - relative : 자기 자신을 기준으로 top / right / bottom / left 의 값에 따라 오프셋을 적용 */
+
+/* top/bottom, left/right 가 동시에 선언이 될 경우 top, left가 우선해서 적용 */
+div {
+  width: 200px;
+  height: 200px;
+  border: 5px solid orangered;
+  margin-left: 150px;
+}
+
+#box {
+  background-color: peachpuff;
+
+  position: relative;
+  top: 50px;
+  bottom: 100px;
+}

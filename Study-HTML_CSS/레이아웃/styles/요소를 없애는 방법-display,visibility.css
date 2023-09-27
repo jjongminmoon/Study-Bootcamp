@@ -1,0 +1,30 @@
+/* 요소를 없애는 방법 - display: none, visibility: hidden */
+
+/* visibility : 문서의 레이아웃을 변경하지 않고 요소를 보이거나 숨김 */
+
+/*
+display와 visibility의 차이점
+- display: none 은 화면상에서 차지하고 있는 영역 자체가 사라짐
+- visibility: hidden 은 화면상에서 공간을 차지하고 있지만 콘텐츠 등 보이지만 않음
+ */
+
+div {
+  height: 200px;
+  border: solid;
+}
+
+.box2 {
+  visibility: hidden;
+}
+
+.box1 {
+  background-color: orange;
+}
+
+.box2 {
+  background-color: green;
+}
+
+.box3 {
+  background-color: blue;
+}

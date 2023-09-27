@@ -1,0 +1,21 @@
+/* 1. <delay> : transtion될 속성이 요청을 받은 이후 실제로 바뀌기까지 기다려야하는 시간을 지정 */
+
+/* 2. <timing-function> : transition이 되는 중간과정의 효과를 지정 */
+
+.box {
+  width: 300px;
+  height: 80px;
+  border: 2px dashed teal;
+  background-color: blue;
+  font-size: 50px;
+  color: wheat;
+
+  transition-property: all;
+  transition-duration: 3s;
+  transition-timing-function: linear;
+}
+
+.box:hover {
+  background-color: red;
+  height: 400px;
+}

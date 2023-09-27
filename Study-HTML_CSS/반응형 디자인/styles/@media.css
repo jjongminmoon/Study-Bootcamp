@@ -1,0 +1,28 @@
+/* CSS Media Query : 지정한 규칙에 브라우저 및 장치 환경이 일치하는 경우에만 CSS를 적용할 수 있는 방법을 제공하는 것 */
+
+/* 작성법 : @media media-type and (media-feature-rule) {CSS} */
+
+/* 미디어 타입 : all(기본값) / print / screen / speech */
+
+/* 
+rule 유형
+1. max-width : 최대값을 지정 (최대값 이하일 때 적용)
+2. min-width : 최소값을 지정 (최소값 이상일 때 적용)
+3. orientation : landscape (가로모드) / 
+ */
+
+body {
+  background-color: blanchedalmond;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  body {
+    background-color: tomato;
+  }
+}
+
+/* @media (orientation: landscape) {
+  body {
+    background-color: tomato;
+  }
+} */

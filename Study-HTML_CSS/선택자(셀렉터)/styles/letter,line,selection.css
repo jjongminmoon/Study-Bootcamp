@@ -1,0 +1,19 @@
+/* 1. first-letter : 텍스트 콘텐츠의 첫번째 글자에만 스타일링할 때 사용 */
+/* before 가상요소 선택자와 함께 사용 시 before 요소에 적용 */
+
+/* 2. first-line : 텍스트 콘텐츠의 첫번째 줄에만 스타일링할 때 사용 */
+
+/* 3. selection : 드래그할 시 선택된 영역에 대해서 스타일링할 때 사용 */
+
+.lorem::first-letter {
+  color:red;
+  font-size: 30px;
+}
+
+.lorem::selection {
+  color:white;
+  background-color: red;
+}
+
+
+

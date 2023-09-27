@@ -1,0 +1,30 @@
+/* <flex-basis> : flex-item 의 초기 크기를 지정 */
+
+.container {
+  height: 200px;
+  border: 5px dashed orange;
+
+  display: flex;
+}
+
+.item {
+  height: 50px;
+  margin: 5px;
+  background-color: paleturquoise;
+  border: 3px solid blue;
+  font-size: 30px;
+
+  flex-basis: 0;
+}
+
+.item:nth-child(1) {
+  flex-grow: 5;
+}
+
+.item:nth-child(2) {
+  flex-grow: 1;
+}
+
+.item:nth-child(3) {
+  flex-grow: 3;
+}

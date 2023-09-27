@@ -1,0 +1,11 @@
+/* 상대길이 - vmin, vmax */
+
+body {
+  margin: 0;
+}
+
+.container {
+  background-color: blue;
+  width: 100vmin;
+  height: 100vmin;
+}

@@ -1,0 +1,27 @@
+/* 
+position - sticky 
+- 요소를 일반적인 문서 흐름에 따라 배치하고
+- 테이블 관련 요소를 포함해 가장 가까운, 스크롤 되는 조상과, 표 관련 요소를 포함한 컨테이닝 블록을 기준으로 삼아
+- top / right / bottom / left 의 값에 따라 오프셋을 적용
+- 오프셋은 다른 요소에는 영향 X
+*/
+
+div {
+  width: 200px;
+  height: 200px;
+  border: 5px solid orangered;
+}
+
+#parent {
+  position: sticky;
+  top: 100px;
+  left: 100px;
+}
+
+#box {
+  width: 150px;
+  height: 100px;
+  border-color: darkblue;
+  background-color: cadetblue;
+  border-radius: 30px;
+}

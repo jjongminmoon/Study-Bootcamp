@@ -1,0 +1,29 @@
+/* <margin> : 네 방향 바깥 여백 영역을 설정 */
+
+/* 자식 요소에게 상속 X */
+
+/* 
+입력방법
+- 단일값 (모두적용) 
+- 값 값 (세로방향, 가로방향)
+- 값 값 값 값 (위, 오른쪽, 아래, 왼쪽 -> 시계방향)
+- 값 값 값 (위, 좌우, 아래)
+*/
+
+/* 퍼센트를 값으로 사용 시 부모의 width의 %에 비례  */
+
+#parent {
+  width: 300px;
+  height: 200px;
+
+  border: 5px solid blue;
+}
+
+#child {
+  width: 50px;
+  height: 50px;
+  
+  margin: 30%;
+
+  border: 5px solid red;
+}

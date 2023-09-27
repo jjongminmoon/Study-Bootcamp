@@ -1,0 +1,14 @@
+/* :not() */
+/* selector:not(selector) { property: value; } : 괄호 안 셀렉터들을 제외한 나머지 셀렉터 */
+
+/* input:not([type=password]) {
+  background-color: indianred;
+} */
+
+/* input:not(.em) {
+  background-color: indianred;
+} */
+
+input:not([placeholder]) {
+  background-color: indianred;
+}

@@ -1,0 +1,30 @@
+/* <@keyframes> : 애니메이션 과정의 중간 절차를 제어할 수 있게함 -> 더 세밀하게 중간 동작들을 제어 */
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 10px solid seagreen;
+  background-color: rgb(204, 253, 225);
+  border-radius: 30px;
+
+  animation: my-first-animation 2s infinite alternate;
+}
+
+/* 
+.box:hover {
+  animation: my-first-animation 2s infinite alternate;
+} 
+-> 마우스를 클릭했을 때만 애니메이션이 작동되게 할때는 animation 속성을 <hover>에 작성 */
+
+@keyframes my-first-animation {
+  0% { 
+    font-size: 20px; 
+  }
+  50% { 
+    width: 300px; 
+    font-size: 80px;
+  }
+  100% {
+    font-size: 20px;
+  }
+}

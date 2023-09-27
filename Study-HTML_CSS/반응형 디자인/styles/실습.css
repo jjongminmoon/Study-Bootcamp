@@ -1,0 +1,82 @@
+/* 
+1. container
+2. box container
+3. box
+4. footer
+5. media query
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(227, 248, 251);
+}
+
+.container {
+  background-color: rgb(77, 146, 287);
+  max-width: 768px;
+  min-height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+}
+
+nav {
+  background-color: orangered;
+  color: white;
+  /* width: 120px; */
+  flex-basis: 120px;
+}
+
+.box-container {
+  background-color: aquamarine;
+  /* width: 100% */
+  flex-grow: 1;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: wheat;
+  border: 3px solid rgb(282, 97, 282);
+  border-radius: 5px;
+
+  min-height: 150px;
+  flex-basis: 50%
+}
+
+footer {
+  background-color: rgb(178, 255, 178);
+  border: 3px solid green;
+  min-height: 50px;
+
+  flex-grow: 1;
+  flex-basis: 100%
+}
+
+.box:nth-child(2n) {
+  border-color: rgb(39, 39, 129);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .box-container {
+    flex-direction: column;
+  }
+  /* .box {
+    flex-basis: 100%;
+  } */
+}

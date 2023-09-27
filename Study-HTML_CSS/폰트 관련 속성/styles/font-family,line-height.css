@@ -1,0 +1,12 @@
+/* 1. font-family : 글꼴을 변경할 때 사용 */
+
+.text {
+  font-family: 'Times New Roman', Times, serif
+}
+
+/* 2. line-height : 글자의 높이를 변경할 때 사용 (위아래 여백까지 포함) */
+
+p {
+  font-size: 24px;
+  line-height: 2.0; 
+}

@@ -1,0 +1,11 @@
+/* link, visited */
+
+/* link : 링크를 방문하기 전의 스타일링 */
+a:link {
+  color: red;
+}
+
+/* visited : 링크를 방문한 후의 스타일링 */
+a:visited {
+  color: green;
+}

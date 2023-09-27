@@ -1,0 +1,8 @@
+/* scale (x축, y축) : 코드 상의 크기는 동일하지만 눈에 보여지는 크기를 변경 */
+/* sclaeX / Y : 가로/세로만 변경 */
+
+#image {
+  width: 400px;
+
+  transform: scale(1.5, 0.5);
+}

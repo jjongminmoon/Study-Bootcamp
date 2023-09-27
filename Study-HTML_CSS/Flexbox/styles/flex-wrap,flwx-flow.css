@@ -1,0 +1,20 @@
+/* <flex-wrap> : item 요소들이 강제로 한줄에 배치되게 할 것인지, 가능한 영역 내에서 벗어나지 않고 여러행으로 나우어 표현할 것인지 결정하는 것 */
+
+/* <flex-flow> : <flex-direction>, <flex-wrap> 속성의 단축 속성 */
+
+.container {
+  height: 500px;
+  border: 5px dashed orange;
+
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.item {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  background-color: paleturquoise;
+  border: 3px solid blue;
+  font-size: 30px;
+}

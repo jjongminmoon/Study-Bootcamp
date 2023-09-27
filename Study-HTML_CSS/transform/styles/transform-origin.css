@@ -1,0 +1,10 @@
+/* transform-origin : 기준점 변경 */
+
+#image {
+  width: 300px;
+  margin: 100px;
+
+  transform: rotate(45deg);
+  transform-origin: top left;
+}
+

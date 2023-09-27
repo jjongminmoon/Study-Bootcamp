@@ -1,0 +1,21 @@
+/* 1. enabled : 활성화되어 있는 input에 스타일을 적용 */
+
+/* 2. disabled : 비활성화되어 있는 input에 스타일을 적용 */
+
+/* 3. checked : 체크가 활성화 되어 있는 input에 스타일을 적용  */
+
+input[type=text]:enabled {
+  background-color: skyblue;
+}
+
+input[type=text]:disabled {
+  background-color: silver;
+}
+
+input[type=radio]:checked {
+  outline: 3px solid red;
+}
+
+input[type=checkbox]:checked {
+  outline: 3px solid blue;
+}

@@ -1,0 +1,21 @@
+/* opacity : 요소의 불투명도를 설정 */
+
+/* 불투명도 : 요소 뒤쪽 콘텐츠가 숨겨지는 정도 (0 ~ 1) */
+
+.floating-box {
+  width: 150px;
+  height: 150px;
+
+  position: fixed;
+  top: 10px;
+  left: 10px;
+
+  background-color: darkgrey;
+  /* background-color: rgba(100, 100, 100, 0.5) */
+  opacity: 0.5;
+}
+
+/*
+- rgba의 alpah 값으로 투명도를 조정하는 것은 자식 요소에는 영향 X
+- opacity는 요소의 내용을 포함해 모든 곳에 영향
+*/

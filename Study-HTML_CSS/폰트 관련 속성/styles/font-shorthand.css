@@ -1,0 +1,25 @@
+/* font (shorthand) : font 속성을 한번에 나열해서 작성하는 단축 속성 */
+/* 따로 따로 사용하는 것의 빈도가 더 높음 */
+/*
+
+1. font-size 와 font-family는 기본값으로 작성해주어야함
+
+2. font-size 앞에 작성
+font-style 
+font-weight
+
+3. font-size 뒤에 슬래시 이후 작성
+font-height
+
+*/
+
+.default {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.text {
+  color: red;
+  font: 20px 'Times New Roman', Times, serif;
+}
+

@@ -1,0 +1,20 @@
+/* 1. background-repeat : 배경 이미지의 반복 방법을 지정 */
+
+/* repeat / repeat-x / repeat-y / no-repeat */
+
+/* 2. background-position : 배경 이미지의 위치를 지정 (x축/y축) */
+
+
+.box {
+  width: 300px;
+  height: 500px;
+
+  border: solid red;
+
+  background-image: url(https://interactive-examples.mdn.mozilla.net/media/examples/moon.jpg);
+  background-repeat: no-repeat;
+  /* background-position: 150px 200px; */
+  background-position: right top;
+}
+
+

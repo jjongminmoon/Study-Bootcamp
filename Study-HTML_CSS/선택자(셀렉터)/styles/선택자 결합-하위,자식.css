@@ -1,0 +1,15 @@
+/* Selector Combinators (선택자 결합) */
+
+/* 하위 : 셀렉터(스페이싱)셀렉터 -> 하위 모든 자식들에 적용 */
+/* 자식 : 셀렉터 > 셀렉터 -> 하위 바로 밑의 자식들에 적용 */
+
+/* ul li:last-of-type {
+  color: red;
+} */
+
+ul > li:last-of-type {
+  color: red;
+}
+
+
+

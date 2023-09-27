@@ -1,0 +1,16 @@
+/* background-size : 요소 배경 이미지의 크기를 설정 */
+
+
+.box {
+  height: 400px;
+
+  border: blue 5px solid;
+
+  background-image: url(https://interactive-examples.mdn.mozilla.net/media/examples/hand.jpg);
+  background-repeat: no-repeat;
+  background-color: cadetblue;
+
+  background-size: cover;
+}
+
+/* contain / cover : 이미지의 비율을 유지하며 요소의 크기에 맞춰진다 */

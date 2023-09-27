@@ -1,0 +1,15 @@
+/* 상대길이 - vw, vh (뷰포트 백분율길이) */
+
+/* 1. vw : 뷰포트의 백분율 너비 */
+/* 2. vh : 뷰포트의 백분율 높이 */
+
+
+body {
+  margin: 0;
+}
+
+.container {
+  background-color: coral;
+  width: 50vw;
+  height: 50vh;
+}

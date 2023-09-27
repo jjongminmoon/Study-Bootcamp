@@ -1,0 +1,17 @@
+/* %(퍼센트) : 부모 객체와의 상대적 크기를 지정할 때 사용 */
+
+body {
+  margin: 0;
+}
+
+.parent {
+  width: 50%;
+  height: 100px;
+  background-color: blue;
+}
+
+.child {
+  width: 50%;
+  height: 30%;
+  background-color: indianred;
+}

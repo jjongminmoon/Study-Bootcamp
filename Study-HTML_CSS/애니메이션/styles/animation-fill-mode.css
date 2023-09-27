@@ -1,0 +1,42 @@
+/* <animation-fill-mode> : animation 실행 전과 후에 대상에 스타일을 적용하는 방법을 지정 */
+
+/*
+값
+1. none : 기본값
+2. forwards : 실행 된 애니메이션의 마지막 @keyframes에 의해 설정된 값을 유지
+3. backwards : 적용되는 즉시 첫 번째 @keyframes에 의해 설정된 값을 적용하고 delay 기간 동안 유지
+4. both : backwards 적용 후 forwards로 종료 (양쪽 다 적용)
+*/
+
+div {
+  width: 100px;
+  height: 100px;
+  border: 10px solid green;
+}
+
+.box {
+  background-color: greenyellow;
+  animation: fill-mode 3s linear;
+  animation-fill-mode: both;
+}
+
+@keyframes fill-mode {
+  0% {
+    background-color: red;
+  }
+  50% {
+    width: 200px;
+  }
+  100% {
+    background-color: black;
+  }
+}
+
+/*
+< 스타일 적용순서 >
+1. 기존 스타일 (div, .box)
+2. keyframes의 첫번째 0%
+3. 애니메이션 진행중
+4. keyframes의 마지막 100%
+5. 기존스타일 (div, .box) -> animation-fill-mode 를 적용해 마지막 스타일링을 지정 가능
+*/

@@ -1,0 +1,19 @@
+/* 1. <property> : transition이 적용될 값을 지정하는 속성 */
+
+/* 2. <duration> : transition이 적용될 시간을 지정하는 속성 */
+
+.box {
+  width: 300px;
+  height: 80px;
+  border: 2px dashed teal;
+  background-color: darkslategray;
+  font-size: 50px;
+  color: wheat;
+
+  transition-property: all;
+  transition-duration: 0.8s;
+}
+
+.box:hover {
+  background-color: indianred;
+}

@@ -1,0 +1,24 @@
+/* gird 단축 속성 (shorthand) : '행 / 열' 로 구분지어 사용 */
+
+/* 
+1. 외재적인 속성(명시적) : <grid-template-row/columns>, <grid-template-areas>
+2. 내재적인 속성(암시적) : <grid-auto-rows/columns>, <grid-auto-flow>
+*/
+
+.container {
+  border: 5px dashed orange;
+
+  display: grid;
+
+  /* grid-template-rows: 1fr 2fr;
+  grid-template-columns: 100px 200px; 
+  grid-auto-flow: columns */
+
+  grid: 1fr 2fr / auto-flow 100px 200px;
+}
+
+.item {
+  background-color: paleturquoise;
+  border: 3px solid blue;
+  font-size: 20px;
+}

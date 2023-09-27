@@ -1,0 +1,10 @@
+/* border 단축속성 (shorthand) : 대부분 단축속성을 사용 */
+
+.box {
+  width: 300px;
+  height: 300px;
+
+  border: 5px dotted red;
+
+  background-color: yellow;
+}

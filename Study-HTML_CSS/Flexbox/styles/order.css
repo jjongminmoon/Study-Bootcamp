@@ -1,0 +1,22 @@
+/* <item-order> : 플렉스 또는 그리드 컨테이너 안에서 현재 요소의 배치 순서를 지정 */
+
+.container {
+  height: 200px;
+  border: 5px dashed orange;
+
+  display: flex;
+}
+
+.item {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  background-color: paleturquoise;
+  border: 3px solid blue;
+  font-size: 30px;
+}
+
+.item:nth-child(3) {
+  order: 3;
+}
+

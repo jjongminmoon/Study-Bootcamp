@@ -1,0 +1,29 @@
+/* <z-index> : 위치 지정 요소와, 그 자손 또는 하위 item의 z축 순서를 지정 -> 더 큰 z-index 값을 가진 요소가 작은 값의 요소 위를 덮음 */
+
+/* <z-index> 를 지정하지 않으면 기본값이 0, 정수만 사용 가능 */
+
+.container {
+  border: 5px dashed orange;
+
+  display: grid;
+  grid-template-rows: repeat(3, 100px);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.item {
+  background-color: paleturquoise;
+  border: 3px solid blue;
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+.item:nth-child(1) {
+  grid-row: 1 / span 2;
+  grid-column: 1 / span 2;
+}
+
+.item:nth-child(2) {
+  grid-row: 1 / 2;
+  grid-column: 2 / 4;
+  z-index: -1;
+}

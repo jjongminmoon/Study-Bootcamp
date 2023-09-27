@@ -1,0 +1,12 @@
+/* 1. font-size : 글자의 크기를 변경할 때 사용 */
+
+/* 2. font-style : 글자의 모양을 변경할 때 사용 */
+
+/* 3. font-weight : 글자의 굵기를 변경할 때 사용 */
+
+.text {
+  color: blue;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: bold;
+}

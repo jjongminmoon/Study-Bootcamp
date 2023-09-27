@@ -1,0 +1,23 @@
+/* 1. hover : 버튼에 커서를 놓으면 변경되는 스타일링 */
+
+/* 2. active : 버튼을 마우스 클릭 눌렀을 때의 스타일링 */
+/* link 가상클래스 선택자의 순서 : linkg > visited > hover > active */
+
+/* 3. focus : 버튼을 포커싱을 하게 되었을 때의 스타일링 */
+
+input[type=button] {
+  background-color: skyblue;
+}
+
+input[type=button]:hover {
+  background-color: teal;
+  color: white;
+}
+
+input[type=button]:active {
+  background-color: red;
+}
+
+input[type=text]:focus {
+  background-color: blue;
+}
